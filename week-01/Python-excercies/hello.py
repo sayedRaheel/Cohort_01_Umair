@@ -1,4 +1,4 @@
-print("hellp week 01")
+print("hello week 01")
 
 print("This is a simple Python script for AI enthusiasts.")
 

@@ -5,14 +5,15 @@ It is designed as a quick reference while learning or revising Python fundamenta
 
 ---
 
-## 📝 Comments
+## 1 📝 Comments
 
 Comments are lines of text ignored by the Python interpreter.  
 They are used to explain code and improve readability.
 
 ```python
 # This is a single-line comment
-🔗 String Concatenation
+```
+## 2 🔗 String Concatenation
 
 String concatenation combines two or more strings.
 
@@ -24,7 +25,7 @@ greeting = "Hi"
 name = " Alex"
 message = greeting + name
 
-🔢 Data Types
+## 3 🔢 Data Types
 
 Common Python data types include:
 
@@ -43,7 +44,7 @@ is_active = True      # Boolean
 is_admin = False      # Boolean
 username = "Alice"    # String
 
-🔍 Indexing
+## 4 🔍 Indexing
 
 Indexing allows access to individual characters in a string.
 Index values start from 0.
@@ -51,7 +52,7 @@ Index values start from 0.
 text = "Python"
 first_char = text[0]
 
-📏 len()
+## 5 📏 len()
 
 Returns the number of characters in a string.
 
@@ -62,21 +63,21 @@ Example
 word = "Programming"
 count = len(word)
 
-🔠 lower()
+## 6 🔠 lower()
 
 Converts all characters in a string to lowercase.
 
 title = "WELCOME"
 lowercase_title = title.lower()
 
-🖨️ print()
+## 7 🖨️ print()
 
 Displays output to the console.
 
 print("Hello, Python")
 print(10 + 5)
 
-➗ Python Operators
+## 8 ➗ Python Operators
 Arithmetic Operators
 Operator	Description
 +	Addition
@@ -96,14 +97,14 @@ div = a / b
 floor_div = a // b
 remainder = a % b
 
-🔄 replace()
+## 9 🔄 replace()
 
 Replaces a portion of a string with another value.
 
 sentence = "I like Java"
 updated_sentence = sentence.replace("Java", "Python")
 
-✂️ String Slicing
+## 10 ✂️ String Slicing
 
 Extracts a portion of a string.
 
@@ -114,28 +115,28 @@ Example
 language = "Python"
 slice_text = language[0:3]
 
-🧩 split()
+## 11 🧩 split()
 
 Splits a string into a list using a delimiter.
 
 data = "apple,banana,orange"
 items = data.split(",")
 
-🧹 strip()
+## 12 🧹 strip()
 
 Removes leading and trailing whitespace.
 
 text = "   hello world   "
 clean_text = text.strip()
 
-🔠 upper()
+## 13 🔠 upper()
 
 Converts all characters in a string to uppercase.
 
 city = "delhi"
 uppercase_city = city.upper()
 
-🧮 Variable Assignment
+## 14 🧮 Variable Assignment
 
 Assigns a value to a variable.
 
@@ -146,7 +147,7 @@ Example
 student_name = "Rahul"
 score = 90
 
-⭐ Additional Crucial Concepts
+## 15 ⭐ Additional Crucial Concepts
 🔄 Type Conversion (Casting)
 
 Convert one data type into another.
@@ -157,7 +158,7 @@ num_int = int(num_str)
 price = 49
 price_str = str(price)
 
-✅ Boolean Expressions
+## 16 ✅ Boolean Expressions
 
 Used for comparisons and conditions.
 
@@ -166,20 +167,20 @@ y = 5
 
 result = x > y
 
-📥 User Input
+## 17 📥 User Input
 
 Accepts input from the user.
 By default, input is stored as a string.
 
 name = input("Enter your name: ")
 
-📦 Multiple Variable Assignment
+## 18 📦 Multiple Variable Assignment
 
 Assign multiple values in a single line.
 
 x, y, z = 1, 2, 3
 
-📌 f-Strings (Formatted Strings)
+## 19 📌 f-Strings (Formatted Strings)
 
 Embed variables directly inside strings.
 
@@ -187,7 +188,7 @@ name = "Sara"
 age = 22
 info = f"My name is {name} and I am {age} years old."
 
-🎯 Summary
+## 🎯 Summary
 
 This cheat sheet covers:
 
